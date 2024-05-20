@@ -19,7 +19,7 @@ MISHI = [
 
 #--------------------------
 
-MUST_JOIN = "TeluguFriendsHub"
+MUST_JOIN = "Teamfoxbots"
 #------------------------
 @app.on_message(filters.incoming & filters.private, group=-1)
 async def must_join_channel(app: Client, msg: Message):
@@ -35,12 +35,12 @@ async def must_join_channel(app: Client, msg: Message):
                 chat_info = await app.get_chat(MUST_JOIN)
                 link = chat_info.invite_link
             try:
-                await msg.reply_photo(random.choice(MISHI), caption=f"❅ ʜᴇʏ ᴛʜᴇʀᴇ, ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ᴜʜʜ !\n\n❅ ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴜsᴇ ๛˹● 𝑻𝑶𝑴 ✘ 𝑱𝑬𝑹𝑹𝒀 𝑴𝑼𝑺𝑰𝑪 ●˼™ 🫧♡゙ ʙᴏᴛ, ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴀɴᴅ ʏᴏᴜ ᴊᴏɪɴᴇᴅ, ᴛʜᴇɴ ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴀʟʟ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ",
+                await msg.reply_photo(random.choice(MISHI), caption=f"❅ ʜᴇʏ ᴛʜᴇʀᴇ, ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ᴜʜʜ !\n\n❅ ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ᴜsᴇ Cocomusicbot ,ʙᴏᴛ, ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴇʟᴏᴡ ʙᴜᴛᴛᴏɴ ᴀɴᴅ ʏᴏᴜ ᴊᴏɪɴᴇᴅ, ᴛʜᴇɴ ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴀʟʟ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("● ᴜᴘᴅᴀᴛᴇ ●", url="https://t.me/TitanNetwrk"),
-                                InlineKeyboardButton("● sᴜᴘᴘᴏʀᴛ ●", url="https://t.me/TeluguFriendsHub"),
+                                InlineKeyboardButton("● ᴜᴘᴅᴀᴛᴇ ●", url="https://t.me/Teamfoxbots"),
+                                InlineKeyboardButton("● sᴜᴘᴘᴏʀᴛ ●", url="https://t.me/Teamfoxbots"),
                             ]
                         ]
                     )
